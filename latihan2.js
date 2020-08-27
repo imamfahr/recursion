@@ -1,17 +1,7 @@
-//latihan 1
-function factorial(n){
-    if(n<0){
-    return;
-    }
-    else if(n===0){
-        return 1;
-    }
-    else{
-        return n*factorial(n-1);
-    }
-}
-
-console.log(factorial(5));
+// Buatlah rekursive function yang dapat menampilkan deret angka genap
+// sampai N input.
+// Contoh:
+// Jika diberi argumen angka 5, maka hasilnya adalah 0 2 4
 
 //latihan 2
 function printEven(lim){
@@ -36,4 +26,3 @@ function printEven(lim){
 }
 
 console.log(printEven(21))
-
